@@ -7,7 +7,7 @@ with open("chave.key", "rb") as arquivo_chave:
 fernet = Fernet(chave)
 
 # Lê o arquivo criptografado
-caminho_arquivo = "empresa2026/arquivo.txt"
+caminho_arquivo = "arquivo.txt"
 with open(caminho_arquivo, "rb") as arquivo:
     conteudo_cifrado = arquivo.read()
 
